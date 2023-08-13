@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- 
+   <meta name="description" content="საიტის აღწერა">
+   <meta name="keywords" content="ძირითადი ფრაზები გამოყოფილი მძიმით">
+   <meta name="image" content="მისამათი ლოგოზე">
+   <meta name="Copyright" content="საავტორო უფლება"> 
+   <meta name="format-detection" content="telephone=no">
+   <meta name="format-detection" content="address=no">
+   <meta property="og:type" content="website">
+   <meta property="og:title" content="სათაური">
+   <meta property="og:description" content="საიტის აღწერა">
+   <meta property="og:image" content="მისამათი ლოგოზე">
+   <meta property="og:url" content="მისამათი საიტზე">
+   <link rel="canonical" href="მისამათი საიტზე">
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.min.css" />
+  <title>Document</title>
+</head>
+
+  <body>
+    <header class="header">
+  <menu class="header__language-social language-social-menu">
+    <div class="language-social-menu__container">
+      <ul class="language-menu__list">
+        <li class="language-menu__item">
+          <a href="#" class="language-menu__link">
+            <img src="./img/Icons/rus.svg" alt="Flag">
+          </a>
+        </li>
+        <li class="language-menu__item">
+          <a href="#" class="language-menu__link">
+            <img src="./img/Icons/en.svg" alt="Flag">
+          </a>
+        </li>
+        <li class="language-menu__item">
+          <a href="#" class="language-menu__link">
+            <img src="./img/Icons/geo.svg" alt="Flag">
+          </a>
+        </li>
+      </ul>
+      <ul class="social-menu__list">
+        <li class="social-menu__item">
+          <a href="#" class="social-menu__link"><img src="./img/Icons/facebook-icon.svg" alt="Icon"></a>
+        </li>
+        <li class="social-menu__item">
+          <a href="#" class="social-menu__link"><img src="./img/Icons/instagram-icon.svg" alt="Icon"></a>
+        </li>
+      </ul>
+    </div>
+  </menu>
+  <div class="header__container">
+    <a href="#" class="header__logo">
+      <img src="./img/logo.png" alt="logo">
+    </a>
+    <div class="header__navigation">
+      <nav class="header__menu menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Home</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">About Us</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Products</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Partners</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">News</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Contact</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link menu__link-line"></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__buttons">
+        <button class="header__btn header__btn-login">CONTACT US</button>
+        <button class="header__btn header__btn-register">FOLLOW US</button>
+      </div>
+      <button type="button" class="menu__burger-toggler">
+        <span class="menu__bar menu__half menu__top"></span>
+        <span class="menu__bar"></span>
+        <span class="menu__bar menu__half menu__bottom"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="image-modal">
+        <span class="image-modal__close">&#215;</span>
+        <div class="image-modal__content">
+          <img src="" class="image-modal__content-image" />
+          <div class="image-modal__content-nav">
+            <button type="button" class="image-modal__content-prevBtn">
+              <img src="./img/Icons/arr-left.svg" alt="arr-left" />
+            </button>
+            <button type="button" class="image-modal__content-nextBtn">
+              <img src="./img/Icons/arr-right.svg" alt="arr-right" />
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="home__banner home-banner">
+        <article class="home-banner__bg-slider home-banner-bg-slider">
+          <div class="swiper home-banner-bg-slider__swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide home-banner-bg-slider__swiper-slide">
+                <img src="./img/Home/bg-1.jpeg" alt="Image" />
+              </div>
+              <div class="swiper-slide home-banner-bg-slider__swiper-slide">
+                <img src="./img/Home/bg-2.jpg" alt="Image" />
+              </div>
+            </div>
+          </div>
+        </article>
+        <div class="home-banner__container">
+          <h1 class="home-banner__title">Explore the best wine for you</h1>
+          <article class="home-banner__text-slider home-banner-text-slider">
+            <div class="swiper home-banner-text-slider__swiper">
+              <div class="swiper-wrapper">
+                <ul class="swiper-slide home-banner-text-slider__swiper-slide">
+                  <li class="home-banner-text-slider__swiper-slide-content-1">
+                    <h2
+                      class="home-banner-text-slider__swiper-slide-content-1-title"
+                    >
+                      Tasting Event This Sunday
+                    </h2>
+                    <a
+                      href="#"
+                      class="home-banner-text-slider__swiper-slide-content-1-link"
+                    >
+                      <span>DETAILS</span>
+                      <img src="./img/Icons/link-arrow.svg" alt="icon" />
+                    </a>
+                  </li>
+                  <li class="home-banner-text-slider__swiper-slide-content-2">
+                    <h2
+                      class="home-banner-text-slider__swiper-slide-content-2-title"
+                    >
+                      TASTE THE TOP WINE
+                    </h2>
+                    <p
+                      class="home-banner-text-slider__swiper-slide-content-2-text"
+                    >
+                      We are hiring wine and spirits merchant. We came in to
+                      existence with the vision of providing clients with the
+                      best wines sourced directly from top châteaux and domaines
+                      - alongside specialist consultancy f rom world-class trade
+                      professionals.
+                    </p>
+                  </li>
+                </ul>
+                <ul class="swiper-slide home-banner-text-slider__swiper-slide">
+                  <li class="home-banner-text-slider__swiper-slide-content-1">
+                    <h2
+                      class="home-banner-text-slider__swiper-slide-content-1-title"
+                    >
+                      Tasting Event This Monday
+                    </h2>
+                    <a
+                      href="#"
+                      class="home-banner-text-slider__swiper-slide-content-1-link"
+                    >
+                      <span>DETAILS</span>
+                      <img src="./img/Icons/link-arrow.svg" alt="icon" />
+                    </a>
+                  </li>
+                  <li class="home-banner-text-slider__swiper-slide-content-2">
+                    <h2
+                      class="home-banner-text-slider__swiper-slide-content-2-title"
+                    >
+                      TASTE THE TOP WINE
+                    </h2>
+                    <p
+                      class="home-banner-text-slider__swiper-slide-content-2-text"
+                    >
+                      We are hiring wine and spirits merchant. We came in to
+                      existence with the vision of providing clients with the
+                      best wines sourced directly from top châteaux and domaines
+                      - alongside specialist consultancy f rom world-class trade
+                      22222222.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="swiper-button-prev home-banner-text-slider__swiper-button home-banner-text-slider__swiper-button-prev"
+              >
+                <img src="./img/Icons/arr-left.svg" alt="arrow-icon" />
+              </div>
+              <div
+                class="swiper-button-next home-banner-text-slider__swiper-button home-banner-text-slider__swiper-button-next"
+              >
+                <img src="./img/Icons/arr-right.svg" alt="arrow-icon" />
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="home__logo-line">
+        <img src="./img/line -logo.png" alt="logo" />
+      </section>
+      <section class="home__news home-news">
+        <div class="home-news__container">
+          <h2 class="home-news__title">NEWS & HAPPENINGS</h2>
+          <ul class="home-news__content home-news-content">
+            <li class="home-news-content__texts">
+              <span class="home-news-content__date">2019/08/02 NEWS</span>
+              <span class="home-news-content__text">
+                We came in to existence with the vision of providing clients
+                with the best wines.
+              </span>
+            </li>
+            <li class="home-news-content__texts">
+              <span class="home-news-content__date">2019/06/11 NEWS</span>
+              <span class="home-news-content__text">
+                Tasting Event in SZ.
+              </span>
+            </li>
+            <li class="home-news-content__texts">
+              <span class="home-news-content__date">2019/01/28 NEWS</span>
+              <span class="home-news-content__text">
+                We provide clients with the best wines. We work closely with
+                hotels and big corporations.
+              </span>
+            </li>
+            <li class="home-news-content__link">
+              <a href="#" class="home-news-content__link-content">
+                <span>SEE ALL NEWS</span>
+                <svg
+                  width="35"
+                  height="21"
+                  viewBox="0 0 35 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 18.1397H31.1238L19.8371 1"
+                    stroke="#862F36"
+                    stroke-width="3"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="home__ourwines home-ourwines">
+        <div class="home-ourwines__container">
+          <div class="home-ourwines__title-image">
+            <img class="home-ourwines__title-image-1" src="./img/Ourwines/wb-r.png" alt="image" />
+            <img class="home-ourwines__title-image-2" src="./img/Ourwines/wb-g.png" alt="image" />
+          </div>
+          <h2 class="home-ourwines__title">WINE PALACE</h2>
+          <p class="home-ourwines__text">
+            Wine Palace Holdings Ltd is a fast-growing wine and spirits
+            merchant. We came in to existence with the vision of providing
+            clients with the best wines sourced directly from top châteaux and
+            domaines - alongside specialist consultancy from world-class trade
+            professionals. We work closely with hotels and big corporations, as
+            well as directly with private clients.
+          </p>
+          <article class="swiper home-ourwines__images-box-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide home-ourwines__images-box-swiper-slide">
+                <img
+                  class="home-ourwines__images-box-swiper-slide-image"
+                  src="./img/Ourwines/w-1.png"
+                  alt="Image"
+                />
+              </div>
+              <div class="swiper-slide home-ourwines__images-box-swiper-slide">
+                <img
+                  class="home-ourwines__images-box-swiper-slide-image"
+                  src="./img/About/a-s-2.png"
+                  alt="Image"
+                />
+              </div>
+              <div class="swiper-slide home-ourwines__images-box-swiper-slide">
+                <img
+                  class="home-ourwines__images-box-swiper-slide-image"
+                  src="./img/About/a-s-1.jpg"
+                  alt="Image"
+                />
+              </div>
+            </div>
+          </article>
+        </div>
+        <a href="#" class="home-ourwines__button">OUR WINES</a>
+      </section>
+      <section class="home__events home-events">
+        <div class="home-events__container">
+          <div class="swiper home-events__swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide home-events__swiper-slide">
+                <img src="./img/Events/e-1.png" alt="Image" />
+              </div>
+              <div class="swiper-slide home-events__swiper-slide">
+                <img src="./img/Events/e-2.jpg" alt="Image" />
+              </div>
+            </div>
+          </div>
+          <article
+            class="home-events__slider-content home-events-slider-content"
+          >
+            <h3 class="home-events-slider-content__title">TASTING EVENTS</h3>
+            <p class="home-events-slider-content__text">
+              Wine Palace Holdings Ltd is a f ast-growing wine and spirits
+              merchant. We came in to existence with the vision of providing
+              clients with the best wines sourced directly from top châteaux and
+              domaines - alongside specialist consultancy.
+            </p>
+            <a href="#" class="home-events-slider-content__link">
+              <span class="home-events-slider-content__link-line"></span>
+              <span class="home-events-slider-content__link-text"
+                >DISCOVER</span
+              >
+            </a>
+          </article>
+        </div>
+        <p class="home-events__text">
+          Wine Palace Holdings Ltd is a fast-growing wine and spirits merchant.
+          We came in to existence with the vision of providing clients with the
+          best wines sourced directly from top châteaux and domaines - alongside
+          specialist consultancy.
+        </p>
+      </section>
+      <section class="home__merchant home-merchant">
+        <div class="home-merchant__container">
+          <div class="home-merchant__title-line"></div>
+          <h2 class="home-merchant__title">WINE PALACE</h2>
+          <p class="home-merchant__text">- WINE & SPIRITS MERCHANT -</p>
+          <div class="home-merchant__content home-merchant-content">
+            <article class="home-merchant-content__box">
+              <h4 class="home-merchant-content__box-title">
+                Hong Kong Flagship Store
+              </h4>
+              <p class="home-merchant-content__box-address">
+                Shop No.8, Kwan Yick Building Phase 1, 438 Des Voeux Road West,
+                HK
+              </p>
+              <p class="home-merchant-content__box-tel">Tel: +852 26280688</p>
+              <p class="home-merchant-content__box-fax">Fax: +852 26280738</p>
+            </article>
+            <article class="home-merchant-content__box">
+              <h4 class="home-merchant-content__box-title">
+                Hong Kong Flagship Store
+              </h4>
+              <p class="home-merchant-content__box-address">
+                Shop No.8, Kwan Yick Building Phase 1, 438 Des Voeux Road West,
+                HK
+              </p>
+              <p class="home-merchant-content__box-tel">Tel: +852 26280688</p>
+              <p class="home-merchant-content__box-fax">Fax: +852 26280738</p>
+            </article>
+            <article class="home-merchant-content__box">
+              <h4 class="home-merchant-content__box-title">
+                Hong Kong Flagship Store
+              </h4>
+              <p class="home-merchant-content__box-address">
+                Shop No.8, Kwan Yick Building Phase 1, 438 Des Voeux Road West,
+                HK
+              </p>
+              <p class="home-merchant-content__box-tel">Tel: +852 26280688</p>
+              <p class="home-merchant-content__box-fax">Fax: +852 26280738</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="home__logo-line">
+        <img src="./img/line -logo.png" alt="logo" />
+      </section>
+    </main>
+    <footer class="footer">
+  <div class="footer__container">
+    <p>© 2022 Wine Palace Holdings Limited</p>
+  </div>
+</footer>
+
+    <script src="./js/app.min.js"></script>
+  </body>
+</html>
